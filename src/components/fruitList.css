@@ -1,0 +1,22 @@
+.fruitBox {
+  background-color: black;
+  padding: 20px;
+  border: 2px dashed white;
+}
+
+.fruitBox button {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-family: inherit;
+}
+
+.fruitBox button:hover {
+  cursor: pointer;
+  filter: invert(0.2);
+}
+
+.fruitBox li {
+  list-style-type: circle;
+}
